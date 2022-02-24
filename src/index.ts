@@ -2,4 +2,9 @@ import express from 'express';
 
 const app = express();
 
-app.
+app.get('/' , (reg, res) => {
+    return res.send('Hello Word');
+})
+
+
+app.listen(3333);
