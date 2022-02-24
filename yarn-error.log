@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Serratec\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;% USERPROFILE% \ AppData \ Roaming \ npm;C:\Program Files\nodejs\;C:\src\flutter\bin;C:\src\flutter_v1.0.0;C:\Program Files\Git\bin;C:\windows;C:\Users\Serratec\AppData\Roaming\npm;C:\Users\Serratec\AppData\Local\Microsoft\WindowsApps;C:\Users\Serratec\AppData\Local\Programs\Microsoft VS Code\bin;- C:\Users\Serratec\AppData\Local\Android\Sdk\emulator;- C:\Users\Serratec\AppData\Local\Android\Sdk\tools;- C:\Users\Serratec\AppData\Local\Android\Sdk\tools\bin;- C:\Users\Serratec\AppData\Local\Android\Sdk\platform-tools;C:\Users\Serratec\AppData\Local\Yarn\bin;C:\Android\Sdk;C:\Program Files\heroku\bin;C:\src\flutter\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\Serratec\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137143:13)
+      at Interface.emit (node:events:390:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:390:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
