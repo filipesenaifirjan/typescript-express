@@ -1,10 +1,11 @@
-import express from 'express';
+import * as express from 'express';
 
 const app = express();
 
-app.get('/' , (reg, res) => {
+app.get('/' , (req, res) => {
     return res.send('Hello Word');
-})
+});
 
 
 app.listen(3333);
+
